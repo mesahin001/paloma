@@ -13,6 +13,9 @@ message ArbitrarySmartContractCall {
   bytes abi = 4;
   
   // TODO: make a new type for turnstone messages
+  // TODO: add TurnstoneID
   bool viaTurnstone = 5;
+
+  uint64 deadline = 6;
 }
 
